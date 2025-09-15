@@ -1,0 +1,432 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #dedddd;
+}
+.heading
+{
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    
+
+}
+.heading .searching
+{
+    padding: 10px;
+    width: 400px;
+    background-color: #ececec;
+    border: none;
+    outline: none;
+
+    position: relative;
+    top: -18px;
+    left: 35px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.heading .items
+{
+    margin-left: 50px;
+}
+.loging
+{
+    position: relative;
+    left: 50px;padding: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+    top: -15px;
+    transition: 0.5s;
+     border-radius: 10px;
+     font-weight: bold;
+
+}
+.loging:hover
+{
+    background-color: #2749F5;
+    text-align: center;
+    color: #ececec;
+    border-radius: 10px;
+    
+}
+.fashion-btn
+{
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+}
+.cart, .become-sellar,.more
+{
+     position: relative;
+    left: 75px;padding: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+    top: -15px;
+    transition: 0.5s;
+     border-radius: 10px;
+     font-weight: bold;
+}
+.cart:hover
+{
+    background-color: #2749F5;
+    text-align: center;
+    color: #ececec;
+    border-radius: 10px;
+}
+.become-sellar
+{
+    left: 90px;
+}
+.more
+{
+    left: 100px;
+}
+.loging-drop-content
+{
+    display: none;
+    z-index: 999;
+
+}
+.dropdown-login:hover .loging-drop-content
+{
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+}
+.loging-drop-content
+{
+    
+   
+    background-color: #ffffff;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+     border-radius: 8px;
+    
+    
+}
+.loging-drop-content li
+{
+    list-style: none;
+     padding: 15px;
+}
+.fa-solid
+{
+    transition: 0.5s;
+}
+.loging:hover .fa-solid 
+{
+    transform: rotate(180deg);
+}
+.items-list 
+{
+    display: flex;
+    padding-right: 30px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    height: 125px;
+
+}
+.items-list button
+{
+border: none;
+outline: none;
+background-color: #ffffff;
+  height: 100px;
+}
+.items-list div
+{
+    margin-right: 52px;
+}
+.text-name
+{
+    position: relative;
+    left: 23px;
+    top: -5px;
+}
+.fashion-list
+{
+    position: absolute;
+    background-color: azure;
+    padding: 15px;
+    width: 150px;
+    left: 130px;
+    display: none;
+}
+.fashion-list li
+{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.item3:hover .fashion-list
+{
+    display: block;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.part2
+{
+  position: absolute;
+    background-color: azure;
+    padding: 15px;
+    width: 150px;
+    left: 120px;
+    top: 0px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+   
+}
+.search-bar .fa-solid fa-magnifying-glass{
+    position: relative;
+    left: 180px;
+    padding: 15px;
+    width: 150px;
+}
+.btns-fashion:hover .fa-solid
+{
+    transform: rotate(180deg);
+}
+.electric-list
+{
+    position: absolute;
+    background-color: azure;
+    padding: 15px;
+    width: 150px;
+    left: 270px;
+    display: none;
+    top: 120px;
+}
+
+.electric-list li
+{
+     list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.item4:hover .electric-list
+{
+    display: block;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.electric-part2
+{
+    position: absolute;
+    background-color: azure;
+    padding: 15px;
+    width: 150px;
+    left: 130px;
+    top: 0px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.electric-btn:hover .fa-solid{
+    transform: rotate(180deg);
+}
+.furniture-list
+{
+    position: absolute;
+    background-color: azure;
+    padding: 15px;
+    width: 150px;
+    left: 400px;
+    display: none;
+    top: 120px;
+}
+
+.furniture-list li
+{
+     list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.item5:hover .furniture-list
+{
+    display: block;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.furniture-part2
+{
+    position: absolute;
+    background-color: azure;
+    padding: 15px;
+    width: 150px;
+    left: 130px;
+    top: 0px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.furniture-btn:hover .fa-solid
+{
+    transform: rotate(180deg);
+}
+.beauty-list
+{
+    position: absolute;
+    background-color: azure;
+    padding: 15px;
+    width: 150px;
+    right: 20px;
+    display: none;
+    top: 122px;
+}
+
+.beauty-list li
+{
+     list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.item8:hover .beauty-list
+{
+    display: block;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.beauty-part2
+{
+    background-color: azure;
+    position: absolute;
+   right: 150px;
+   top:-1px;
+    z-index: 1000;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+       width: 150px;
+
+}
+.beauty-btn:hover .fa-solid
+{
+    transform: rotate(180deg);
+    
+    
+}
+
+.search-bar
+{
+position: absolute;
+top: 18px;
+padding: 8px;
+z-index: 1000;
+border-radius: 10px 0px 0px 10px;
+ background-color: #ececec;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height: 320px;
+  top: 25px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 320px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Mobile screen (max-width: 600px) */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    font-size: 14px;
+  }
+}
+
+/* Tablet screen (600px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background-color: lightgreen;
+    font-size: 16px;
+  }
+}
+
+/* Desktop screen (above 1024px) */
+@media (min-width: 1025px) {
+  body {
+    background-color: lightcoral;
+    font-size: 18px;
+  }
+}
